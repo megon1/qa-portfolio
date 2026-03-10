@@ -1,4 +1,4 @@
-![Portfolio Preview](images/portfolio-preview.png)
+[![Portfolio Preview](images/portfolio-preview.png)](https://mauro-qa-portfolio.netlify.app/)
 
 
 # 👨‍💻 Mauro – QA Analyst Portfolio
@@ -30,4 +30,4 @@ QA Analyst Semi Senior con experiencia en testing funcional, API testing y valid
 - 💼 LinkedIn
 - 💻 GitHub
 
-- ![Portfolio Preview](images/portfolio-preview.png)
+[![Portfolio Preview](images/portfolio-preview.png)](https://mauro-qa-portfolio.netlify.app/)
