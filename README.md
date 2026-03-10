@@ -1,6 +1,5 @@
 [![Portfolio Preview](images/portfolio-preview.png)](https://mauro-qa-portfolio.netlify.app/)
 
-
 # 👨‍💻 Mauro – QA Analyst Portfolio
 
 🌐 **Live Demo:**  
