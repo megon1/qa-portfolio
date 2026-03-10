@@ -1,4 +1,4 @@
-[![Portfolio Preview](images/portfolio-preview.png)](https://mauro-qa-portfolio.netlify.app/)
+![Portfolio Preview](images/portfolio-preview.png)
 
 # 👨‍💻 Mauro – QA Analyst Portfolio
 
