@@ -1,0 +1,266 @@
+html {
+scroll-behavior: smooth;
+}
+
+.hero-bg {
+background: linear-gradient(120deg,#020617,#0f172a,#1e293b);
+}
+
+.hero-img {
+border-radius:50%;
+transition:0.4s;
+}
+
+.hero-img:hover {
+transform:scale(1.08);
+box-shadow:0 0 25px #38bdf8;
+}
+
+.skill-card {
+background:#1e293b;
+padding:25px;
+border-radius:12px;
+transition:0.3s;
+text-align:center;
+}
+
+.skill-card:hover {
+transform:translateY(-8px);
+background:#334155;
+}
+
+.fade {
+opacity:0;
+transform:translateY(30px);
+transition:1s;
+}
+
+.fade.show {
+opacity:1;
+transform:translateY(0);
+}
+
+/* BOTON WHATSAPP */
+
+.whatsapp-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    font-size: 26px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    z-index: 9999;
+}
+
+.whatsapp-btn:hover{
+    transform: scale(1.1);
+}
+
+/* MOBILE */
+
+@media (max-width:768px){
+
+.whatsapp-btn{
+    bottom: 15px;
+    right: 15px;
+}
+
+}
+
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+background:#111;
+color:white;
+}
+
+.nav-links{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+.nav-links a{
+text-decoration:none;
+color:white;
+}
+
+.hamburger{
+display:none;
+font-size:28px;
+cursor:pointer;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.nav-links{
+position:absolute;
+top:70px;
+left:0;
+width:100%;
+background:#111;
+flex-direction:column;
+align-items:center;
+display:none;
+}
+
+.nav-links.active{
+display:flex;
+}
+
+.hamburger{
+display:block;
+}
+
+}
+
+.social-buttons{
+margin-top:20px;
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.btn-social{
+padding:10px 20px;
+border-radius:8px;
+background:#1f1f1f;
+color:white;
+text-decoration:none;
+transition:0.3s;
+font-size:14px;
+}
+
+.btn-social:hover{
+background:#00adb5;
+transform:translateY(-3px);
+}
+
+.experience-card{
+background:#1a1a1a;
+padding:25px;
+border-radius:10px;
+margin-top:20px;
+}
+
+.experience-card ul{
+margin-top:15px;
+}
+
+.experience-card li{
+margin-bottom:8px;
+}
+
+section{
+opacity:0;
+transform:translateY(40px);
+transition:all 0.8s ease;
+}
+
+section.show{
+opacity:1;
+transform:translateY(0);
+}
+
+
+
+.navbar-custom{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+background:#111;
+color:white;
+position:fixed;
+width:100%;
+top:0;
+z-index:999;
+}
+
+.logo{
+font-weight:bold;
+font-size:20px;
+}
+
+.experience-card{
+background:#1e293b;
+padding:30px;
+border-radius:12px;
+box-shadow:0 10px 30px rgba(0,0,0,0.4);
+transition:0.3s;
+}
+
+.experience-card:hover{
+transform:translateY(-6px);
+background:#334155;
+}
+
+#about p{
+font-size:17px;
+}
+
+/* SOCIAL SECTION */
+
+.social-section{
+text-align:center;
+margin-top:60px;
+margin-bottom:60px;
+}
+
+.social-title{
+font-size:28px;
+font-weight:bold;
+margin-bottom:25px;
+color:#38bdf8;
+}
+
+.social-buttons{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+/* BOTONES */
+
+.btn-social{
+display:flex;
+align-items:center;
+gap:10px;
+padding:12px 22px;
+background:#1e293b;
+border-radius:10px;
+text-decoration:none;
+color:white;
+font-weight:500;
+transition:0.3s;
+border:1px solid #334155;
+}
+
+.btn-social i{
+font-size:20px;
+}
+
+.btn-social:hover{
+transform:translateY(-4px);
+background:#0f172a;
+border-color:#38bdf8;
+box-shadow:0 0 12px rgba(56,189,248,0.5);
+}
+
+.btn-social:hover i{
+color:#38bdf8;
+}
